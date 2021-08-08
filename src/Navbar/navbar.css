@@ -1,0 +1,37 @@
+.nav {
+    background-color: coral;
+    color: #fff;
+}
+
+.nav h1 {
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.nav-title, .nav-links {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-items {
+    background-color: #252526;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 24px;
+    display: inherit;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.nav-items li {
+    list-style: none;
+}

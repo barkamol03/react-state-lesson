@@ -1,0 +1,41 @@
+.main-body {
+    background-color: #4C4C4C;
+    height: 79vh;
+}
+
+.body-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.body-text h1 {
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: cursive;
+}
+
+.body-text p{
+    width: 50%;
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 138px;
+    height: 34px;
+    font-size: 13px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
